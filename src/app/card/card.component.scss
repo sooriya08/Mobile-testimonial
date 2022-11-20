@@ -1,0 +1,40 @@
+.card-container{
+  width: 100%;
+  max-width: 1140px;
+  min-height: 350px;
+  max-height: 650px;
+  box-shadow: 17px 88px 60px -100px rgba(79, 94, 120, 0.18), 11px 0 20px -9px rgba(79, 94, 120, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  .icons{
+    background-color: #007bfc;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    transition: all 200ms ease;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 45px;
+      height: 45px;
+    }
+  }
+  #right{
+    right: -24px;
+  }
+  #right:hover{
+    transform: translate(2px, 0px);
+  }
+  #left{
+    left: -24px;
+  }
+  #left:hover{
+    transform: translate(-2px, 0px);
+  }
+}

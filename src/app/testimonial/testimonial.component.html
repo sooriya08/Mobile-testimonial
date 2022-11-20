@@ -1,0 +1,22 @@
+<div *ngIf="current" class="testimony-container">
+<span
+  id="company-name"
+  [@simpleFadeAnimation]="'in'"
+  *ngFor="let item of [current]"
+  >{{this.current.company}}</span
+>
+<p [@simpleFadeAnimation]="'in'" *ngFor="let item of [current]">
+  {{current.paragraph}}
+</p>
+<div
+  class="profile"
+  [@simpleFadeAnimation]="'in'"
+  *ngFor="let item of [current]"
+>
+  <img src="{{current.avatar}}" alt="avatar" />
+  <div class="info">
+    <span id="auth">{{current.name}}</span>
+    <span id="job">{{current.job}}, {{current.company}}</span>
+  </div>
+</div>
+</div>

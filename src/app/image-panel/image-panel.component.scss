@@ -1,0 +1,12 @@
+.image-container{
+  // width: 40%;
+  height: 350px;
+  width: 500px;
+  overflow: hidden;
+  img{
+    clip-path: polygon(100% 0, 80% 100%, 0% 100%, 0% 0%);
+    background-position: center;
+    height: 350px;
+    max-width: 500px;
+  }
+}

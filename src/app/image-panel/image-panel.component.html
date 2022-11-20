@@ -1,0 +1,9 @@
+<div class="image-container" *ngIf="current">
+<img
+  src="https://mmfss-leaseuat.azureedge.net/vehicleimages/resources/img/leasing/homepage_web_img/brand_new_car.webp?v=1.2.4"
+  [@simpleFadeAnimation]="'in'"
+  alt=""
+  *ngFor="let item of [current]"
+/>
+<img src="#" alt="" />
+</div>

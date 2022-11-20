@@ -1,0 +1,9 @@
+p {
+  font-family: Lato;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
